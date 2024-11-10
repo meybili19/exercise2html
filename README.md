@@ -38,7 +38,7 @@ Before running this project, you must have the following programs:
 
     Once the image has been built successfully, run the following command to start the container:
     
-        docker run --name exercise3javascript -p 80:80 meybili/exercise2html
+        docker run --name exercise2html -p 80:80 meybili/exercise2html
 
 ## Running from Docker Hub
 
@@ -48,7 +48,7 @@ Before running this project, you must have the following programs:
 
 2. **Run the container for the project**:
 
-    docker run --name exercise3javascript -p 80:80 meybili/exercise2html
+    docker run --name exercise2html -p 80:80 meybili/exercise2html
 
 
 3. **Open your browser and navigate to http://localhost:80 to see the app.**
